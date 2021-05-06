@@ -17,12 +17,10 @@
 */
 
 const threeCheck = (x) => {
-  if( x%3 === 0 ){
-    return console.log("짝")
-  } else {
-    return console.log(x)
+  x%3 === 0 ?
+    console.log("짝")
+  : console.log(x)
   }
-}
 
 threeCheck(3)
 threeCheck(7)
