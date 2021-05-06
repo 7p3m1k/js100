@@ -8,12 +8,9 @@
 
 
 const howTallAreYou =(n)=> {
-  if(n>=150){
-    console.log("YES")
-  }else {
-    console.log("NO")
-  }
+  n>=150 ? console.log("YES") : console.log("NO")
 }
+
 
 howTallAreYou(160)
 howTallAreYou(140)
