@@ -11,8 +11,8 @@
 
 
 
-const reversed = (array) => {
-  return array.split("").reverse().join("");
+const reversed = (string) => {
+  return string.split("").reverse().join("");
 } 
 
 console.log(reversed("거꾸로"));
