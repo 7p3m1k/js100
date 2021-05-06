@@ -10,9 +10,9 @@ console.log(Math.pow(parseInt(n[0], 10), parseInt(n[1], 10)));
 
 
 //나의 풀이
-const a = (number) => {
-  let b = number.split(' ')
-  console.log(Math.pow(parseInt(b[0], 10), parseInt(b[1], 10)));
+const square = (number) => {
+  let n = number.split(' ')
+  console.log(Math.pow(parseInt(n[0], 10), parseInt(n[1], 10)));
 }
 
-a("2 3");
+square("2 3");
