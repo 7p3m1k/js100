@@ -8,7 +8,7 @@
 
 
 const howTallAreYou =(n)=> {
-  n>=150 ? console.log("YES") : console.log("NO")
+  console.log(n>=150 ? "YES" : "NO")
 }
 
 
